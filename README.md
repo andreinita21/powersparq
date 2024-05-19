@@ -1,4 +1,4 @@
-# Ghid de Configurare pentru Aplicația PowerSparq
+# 🖥️📖 Ghid de Configurare pentru Aplicația  🔌 PowerSparq ⚡
 
 Acest document descrie metodele de configurare disponibile pentru aplicația PowerSparq. Utilizatorii pot opta fie pentru un script automatizat Bash, fie pentru o configurare manuală detaliată.
 
