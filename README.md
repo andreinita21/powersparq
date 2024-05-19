@@ -1958,7 +1958,6 @@ padding-bottom: 40px;}
 }
 ```
 + alte fisiere apelate de aceasta ( boostrap , font-awsome etc.)
-## Concluzie
 
 - **Java Script-ul utilizat de site**
      - Utilizat pentru meniuri si animatii
