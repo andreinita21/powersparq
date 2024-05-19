@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634036721171",
+    "project_id": "power-sparq-04gv8k",
+    "storage_bucket": "power-sparq-04gv8k.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634036721171:android:ee8d9936fb576e934591e6",
+        "android_client_info": {
+          "package_name": "com.mycompany.powersparq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5VPxJ3V389YjF_G_wqkvTg7fpU0cbP5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
