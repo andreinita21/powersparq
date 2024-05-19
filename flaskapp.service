@@ -1,0 +1,14 @@
+[Unit]
+Description=Flask Application
+After=network.target
+
+[Service]
+User=andrei
+Group=andrei
+WorkingDirectory=/home/andrei/wol_project
+ExecStart=/home/andrei/wol_project/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
