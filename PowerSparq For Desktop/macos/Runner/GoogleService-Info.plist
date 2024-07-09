@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCG1-HTiS9P7hup23j8LY-AbXrnyXpQtMU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>634036721171</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.powersparqfordesktop</string>
+	<key>PROJECT_ID</key>
+	<string>power-sparq-04gv8k</string>
+	<key>STORAGE_BUCKET</key>
+	<string>power-sparq-04gv8k.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:634036721171:ios:725d816fd8d225184591e6</string>
+</dict>
+</plist>
