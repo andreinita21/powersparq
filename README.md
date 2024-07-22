@@ -3,7 +3,7 @@
 # Realizatori si contributii
 
 - **Mihalcea Alexandra**
-- Prezentare, Documentatie, Estetica
+- Prezentare, Documentație, Estetica site-ului și a aplicațiilor
 - **Nita Andrei**
 - Programare Front-End & Back-End , SysAdmin
 
