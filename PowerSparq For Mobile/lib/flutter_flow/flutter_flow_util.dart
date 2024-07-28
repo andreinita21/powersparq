@@ -30,6 +30,8 @@ export 'package:cloud_firestore/cloud_firestore.dart'
 export 'package:page_transition/page_transition.dart';
 export 'nav/nav.dart';
 
+final RouteObserver<ModalRoute> routeObserver = RouteObserver<PageRoute>();
+
 T valueOrDefault<T>(T? value, T defaultValue) =>
     (value is String && value.isEmpty) || value == null ? defaultValue : value;
 
@@ -244,8 +246,15 @@ extension FFTextEditingControllerExt on TextEditingController? {
 }
 
 extension IterableExt<T> on Iterable<T> {
-  List<T> sortedList<S extends Comparable>([S Function(T)? keyOf]) => toList()
-    ..sort(keyOf == null ? null : ((a, b) => keyOf(a).compareTo(keyOf(b))));
+  List<T> sortedList<S extends Comparable>(
+      {S Function(T)? keyOf, bool desc = false}) {
+    final sortedAscending = toList()
+      ..sort(keyOf == null ? null : ((a, b) => keyOf(a).compareTo(keyOf(b))));
+    if (desc) {
+      return sortedAscending.reversed.toList();
+    }
+    return sortedAscending;
+  }
 
   List<S> mapIndexed<S>(S Function(int, T) func) => toList()
       .asMap()

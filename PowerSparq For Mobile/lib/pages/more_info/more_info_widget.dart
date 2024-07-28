@@ -80,7 +80,7 @@ class _MoreInfoWidgetState extends State<MoreInfoWidget> {
               Align(
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Padding(
-                  padding: EdgeInsets.all(24.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 20.0),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
@@ -92,41 +92,53 @@ class _MoreInfoWidgetState extends State<MoreInfoWidget> {
                   ),
                 ),
               ),
-              Align(
-                alignment: AlignmentDirectional(0.03, 1.42),
-                child: Padding(
-                  padding: EdgeInsets.all(24.0),
-                  child: Text(
-                    'About us',
-                    style: FlutterFlowTheme.of(context).titleLarge.override(
-                          fontFamily: 'Outfit',
-                          fontSize: 30.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.bold,
-                        ),
+              Flexible(
+                child: Align(
+                  alignment: AlignmentDirectional(0.0, -2.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(24.0),
+                    child: Text(
+                      'About us',
+                      style: FlutterFlowTheme.of(context).titleLarge.override(
+                            fontFamily: 'Outfit',
+                            fontSize: 30.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.bold,
+                          ),
+                    ),
                   ),
                 ),
               ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8.0),
-                child: Image.asset(
-                  'assets/images/doc_lunga.png',
-                  width: 202.0,
-                  height: 200.0,
-                  fit: BoxFit.cover,
+              Align(
+                alignment: AlignmentDirectional(0.0, -1.0),
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8.0),
+                    child: Image.asset(
+                      'assets/images/doc_lunga.png',
+                      width: 201.0,
+                      height: 200.0,
+                      fit: BoxFit.cover,
+                      alignment: Alignment(0.0, 0.0),
+                    ),
+                  ),
                 ),
               ),
-              Expanded(
-                child: Padding(
-                  padding: EdgeInsets.all(24.0),
-                  child: Text(
-                    'Documentatie',
-                    style: FlutterFlowTheme.of(context).titleLarge.override(
-                          fontFamily: 'Outfit',
-                          fontSize: 30.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.bold,
-                        ),
+              Flexible(
+                child: Align(
+                  alignment: AlignmentDirectional(0.0, -2.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(24.0),
+                    child: Text(
+                      'Documentatie',
+                      style: FlutterFlowTheme.of(context).titleLarge.override(
+                            fontFamily: 'Outfit',
+                            fontSize: 30.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.bold,
+                          ),
+                    ),
                   ),
                 ),
               ),
