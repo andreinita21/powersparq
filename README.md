@@ -1,4 +1,4 @@
-# PowerSparq
+# 🔌 PowerSparq ⚡
 
 ## Realizatori și Contribuții
 
